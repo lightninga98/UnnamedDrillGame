@@ -1,6 +1,9 @@
 # This .gitignore file should be placed at the root of your Unity project directory
 #
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
+
+UnnamedDrillGame\Library\PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6\data~\payload.tar.7z
+
 #
 /[Ll]ibrary/
 /[Tt]emp/
@@ -9,10 +12,12 @@
 /[Bb]uilds/
 /[Ll]ogs/
 /[Uu]ser[Ss]ettings/
+/Library/PackageCache\com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6/data~
 
 # MemoryCaptures can get excessive in size.
 # They also could contain extremely sensitive data
 /[Mm]emoryCaptures/
+.payload.tar
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
@@ -70,3 +75,4 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+UnnamedDrillGame/Library/PackageCache/com.unity.toolchain.win-x86_64-linux-x86_64@2.0.6/data~/payload.tar.7z
